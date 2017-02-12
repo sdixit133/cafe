@@ -69,6 +69,35 @@ ul, ol {
 	webkit-padding: 0;
 	moz-padding: 0;
 }
+p.first {float: left;}
+
+/* Style the links inside the list items */
+p a.tablinks {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+p a.tablinks:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+p.first:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    text-align: center;
+}
+#map {
+		 height: 500px;
+		 width: 100%;
+}
 hr {
 	height: 2px;
 	width: 70px;
